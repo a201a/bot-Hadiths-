@@ -4,10 +4,10 @@ from delete_functions import delete_message_by_text, delete_messages
 from keep_alive import keep_alive
 keep_alive()
 token = '5938843430:AAHtP05uCN8oze5Od790CVG_k0tjJ-UYIgU'
-api_url_hadith = 'https://dorar-hadith-api.mrmichael4.repl.co/v1/api/hadith/search?value='
-api_url_degree = 'https://dorar-hadith-api.mrmichael4.repl.co/v1/data/degree'
-api_url_book = 'https://dorar-hadith-api.mrmichael4.repl.co/v1/site/book/'
-api_url_sharh = 'https://dorar-hadith-api.mrmichael4.repl.co/v1/site/sharh/text/'
+api_url_hadith = 'https://dorar-hadith-api-laq9.onrender.com/v1/api/hadith/search?value='
+api_url_degree = 'https://dorar-hadith-api-laq9.onrender.com/v1/data/degree'
+api_url_book = 'https://dorar-hadith-api-laq9.onrender.com/v1/site/book/'
+api_url_sharh = 'https://dorar-hadith-api-laq9.onrender.com/v1/site/sharh/text/'
 
 bot = telebot.TeleBot(token)
 
